@@ -1,0 +1,50 @@
+.phonebook__form {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    padding: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.phonebook__label {
+    font-weight: 500px;
+}
+
+.phonebook__input {
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 4px;
+    border: 0.3px solid rgb(34, 68, 11);
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.phonebook__input:focus {
+    box-shadow: 1px 3px 3px rgba(85, 26, 26, 0.4);
+}
+
+.phonebook__input:last-of-type {
+    margin-bottom: 0;
+}
+
+.phonebook__button {
+    width: 40%;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.phonebook__button:hover {
+    background-color: rgb(40, 18, 161);
+    color: rgb(208, 222, 226);
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.4);
+}
